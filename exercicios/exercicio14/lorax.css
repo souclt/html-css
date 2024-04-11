@@ -1,0 +1,14 @@
+body { text-align: justify; font: normal 16px arial, verdana, serif;}
+
+
+
+h1 {
+    text-align: center;}
+
+h2{
+    text-align: right;}
+
+p {text-align: justify;
+text-indent: 20px;}
+
+div { width: 250px;}

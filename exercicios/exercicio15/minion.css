@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {background-color: aquamarine;
+ font-family: Arial, Helvetica, sans-serif}
+
+ h1 {
+    color:cadetblue
+
+ }
+ h1#principal {
+    text-align: center;
+    background-color: bisque;
+ }
+
+
+ h2 {
+color:azure
+
+ }
+
+h2#lacome { color:darkviolet}   
+
+h2#cinco {color: dodgerblue;}
+
+
+
+p.ponto {
+  text-align: justify;
+  color: brown;
+}
+
+p.pento {
+    font-size: small, 20px, 10px;
+    color:cornflowerblue
+}
+   
