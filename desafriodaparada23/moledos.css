@@ -1,0 +1,36 @@
+
+
+    body {margin: 0px;
+    font: optional;}
+
+
+    header {text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;}
+    
+    h5 > a {text-decoration: none;
+        color: white;}
+    
+    h5 > a:hover {text-decoration: underline;}
+
+
+    section {font-size: 50px;
+        padding: 25px;
+        text-align: justify;
+        margin-left: 15px;}
+
+     
+ 
+    #image{background: rgba(97, 97, 97, 0.658) url(imagens/background001.jpg) fixed;
+    background-position: center center;
+    size: 100%;}
+        
+    #cartas {background: rgba(97, 97, 97, 0.658) url(imagens/background002.jpg) fixed;
+        background-position: center center;
+        size: 100%;}
+
+
+    footer {text-align: center;
+    background-color: black;
+    color: white;}
