@@ -5,66 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lkerchwgbdfl</title>
     <style>
+        table {border-collapse: collapse;}
 
 
-table {border-collapse: collapse;
-     width: 400px;
-     height: 50px;}
- table,  td  {border: 1px solid black;
+
+        th, td {border: 1px solid black;
+        padding: 10px;}
+
+
+
+        .med {text-align: left;
         padding: 5px;
-    text-align: center;}
+        background-color: grey;
+        color: aliceblue;}
 
 
+
+        .he {background-color: grey;
+        color: aliceblue;}
+
+        caption{ position: sticky;
+            top: 0px;
+        padding: 15px;
+        background-color: grey;
+        border: 1px solid black;
+        color: aliceblue;}
 
     </style>
 </head>
 <body>
     <table>
+        <caption>boletim</caption>
         <thead>
-            <caption>
-                <th rowspan="2">area</th>
-                <th rowspan="2">disciplinas</th>
-                <th >notas</th>
-                
-                
-          
-                <td>nota 1</td>
-                <td>nota 2</td>
-                <td >media</td>
-            </caption>
-
-           
-
+            <th colspan="2" rowspan="2" class="he" scope="row">area</th>
+            <th colspan="2" rowspan="2" class="he" scope="row">disciplina</th>
+            <th colspan="2" class="he" scope="rowgroup">notas</th>
+            <th rowspan="2" class="he" scope="row">media</th>
+            <tr>
+            <th class="he" scope="row">nota 1</th>
+            <th class="he" scope="row">nota 2</th>
+            </tr>
         </thead>
-
-        <tbody>
+        <tbody> 
             
-            <td rowspan="4">exatas</td>
-            <td>matematica</td>
+            <th rowspan="4" colspan="2" scope="colgroup">exatas</th>
+            <td colspan="2">matematica</td>
             <td>0.0</td>
             <td>0.0</td>
             <td>0.0</td>
-            <td>fisica</td>
+            <tr>
+                <td colspan="2">fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td colspan="2">quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td colspan="2">biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <th colspan="6" class="med">medias de exatas</th>
+            <td class="med">0.0</td>
+            <tr>
+                <th rowspan="2" colspan="2">humanas</th>
+                <td colspan="2">histora</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>    
+                <td colspan="2">geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="6" class="med">medias de humanas</th>
+                <td class="med">0.0</td>
+
+
+            </tr>
+            
         </tbody>
 
-        <TFOOT>
-
-        </TFOOT>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </table>
-    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto dignissimos culpa? Ut voluptatibus labore suscipit dignissimos delectus nobis animi, minus sequi eveniet deserunt, fuga fugit quaerat ex magnam cum?</p>
 </body>
 </html>
