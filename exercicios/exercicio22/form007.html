@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.js">
+        <p>
+            <label for="est">estado</label>
+            
+            <select name="est" id="est">
+                <option value="-">---escolea---</option>
+                <optgroup label="jurado de morte">
+                <option value="mg">minas gerais</option>
+                <option value="pr">sao jose</option>
+                <option value="ce">ceara</option>
+                </optgroup>
+                <optgroup label="safe zone">
+                <option value="al">alagoas</option>
+                <option value="rj">rio de janeiro</option>
+                <option value="rs">rio garnde do sul</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="pro">profissao</label>
+            <input type="text" name="pro" id="pro" list="lstpro">
+            <datalist id="lstpro">
+                <option >adm</option>
+                <option >capanga</option>
+                <option >psiquiatra</option>
+            </datalist>
+
+        </p>
+        <p><label for="msg">message</label>
+        <textarea name="msg" id="msg" cols="10" rows="1" placeholder="escrevinhe"></textarea>
+        </p>
+
+
+
+
+
+    </form>
+</body>
+</html>
