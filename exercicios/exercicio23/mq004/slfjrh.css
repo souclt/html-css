@@ -1,0 +1,42 @@
+/* mobile first */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.3em;
+    box-sizing: border-box ;}
+
+html {
+   
+    height: 100vh;
+}
+
+body {
+    background: black url(i/back-phone.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.493);
+    width: 90vw;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+h1 {
+    text-align:center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#cell {display: block;}
+
+#tablet {display: none;}
+#print {display: none;}
+#pc {display: none;}
+#tv {display: none;}
