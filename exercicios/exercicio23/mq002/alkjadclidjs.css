@@ -1,1 +1,6 @@
-/* deitado /*
+/* deitado */
+
+body {
+    background-image: url(im/cev-landscape.jpg);
+    background-position: left bottom;
+}

@@ -1,1 +1,6 @@
-/* em pé /*
+/* em pé */
+
+body {
+   background-image: url(im/cev-portrait.jpg);
+   background-position: center bottom;
+}
