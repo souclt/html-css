@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* declarações gerais */
+                * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html, body {
+            width: 100vw;
+            height: 100vh;
+            background-color: #233eff;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        
+        h1 {
+            color: rgb(255, 255, 255);
+            text-shadow: 3px 3px 0px #1526a7;
+            padding: 10px;
+        }
+
+        /*declarações retrato */
+        @media screen and (orientation: portrait){
+        body {
+            background-image: url(im/cev-portrait.jpg);
+            background-position: center bottom;}
+        }
+
+      
+
+        /*declarações em pé */
+        @media screen and (orientation: landscape){
+        body {
+            background-image: url(im/cev-landscape.jpg);
+            background-position: left bottom; }
+        }
+        
+                   
+    </style>
+    <title>media-query</title>
+</head>
+<body>
+    <h1>orientação o seu dispositivo</h1>
+</body>
+</html>
