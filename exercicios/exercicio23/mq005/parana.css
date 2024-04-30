@@ -6,6 +6,7 @@
 
 body, html {
     background-color: dimgrey;
+    overflow: hidden;
 }
 
 header {

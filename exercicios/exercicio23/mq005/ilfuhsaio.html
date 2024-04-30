@@ -6,9 +6,10 @@
     <title>kjn</title>
     <link rel="stylesheet" href="parana.css" media="screen ">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="clube.css" media="">
 
 </head>
-<body>
+<body onresize="mudouTamanho">
     <header>
         <h1>meu site</h1>
         <i id="br" class="material-icons" onclick="clickMenu()">menu</i>
@@ -31,6 +32,16 @@
         </article>
     </main>
     <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) 
+            {itens.style.display = 'block'}
+            else 
+            {itens.style.display = 'none'}
+            
+        }
+
+
         function clickMenu() {
             if 
             (itens.style.display == 'block')
