@@ -1,14 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOgin</title>
-    <link rel="stylesheet" href="lobbers.css">
+    <link rel="stylesheet" href="lozers.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="lxss.css" >
+    
+        
 </head>
 <body>
-    <div>
-        
-    </div>
+    <section id="login">
+            <div id="imagem">
+                
+            </div>
+            <div id="form">
+                <h1>login</h1>
+                <p>seja bem vindo novamente falça login para acessar a sua conta e poder fazer as configurações do seu ambiente 
+                </p>
+
+                <form action="login.js" method="post">
+                    <p class="conta">
+                        <label for="email" class="ico">
+                            <i class="material-symbols-outlined">person</i>
+                        </label>
+                            <input  type="email" name="email" id="email" placeholder=" seu e-mail">
+                       
+                    </p>
+                    <p class="conta">
+                        <label for="password" class="ico">
+                            <i class="material-symbols-outlined"> vpn_key</i>
+                        </label>
+                            <input  type="password" name="password" id="password" placeholder=" sua senha">
+                    </p>
+                    <p class="bot">
+                        <input type="submit" name="entra" id="entra" value="entrar">
+                    </p>
+                    <p class="bot">
+                        
+                        <input type="submit" name="esqueci" id="esqueci"
+                        value="esqueci a senha">
+                        <span id="icone" class="material-symbols-outlined">
+                            mail
+                            </span>
+                             
+                        
+                        
+                    </p>
+
+                </form>
+            </div>
+    </section>
 </body>
 </html>

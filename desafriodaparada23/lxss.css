@@ -1,0 +1,127 @@
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    
+    body {
+      background-image: linear-gradient(to top, #49a09d,
+       #5f2c82);
+    }
+    
+    
+    #login {
+        width: 760px;
+        height: 300px;
+        float: right;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+        border-radius: 15px 0px 0px 15px;
+    }
+
+    #email {
+        width: 450px;
+        transform: translate(10.5%, 5%);
+    }
+
+    #password {
+        width: 450px;
+        transform: translate(10.5%, 5%);
+    }
+
+    .conta {
+        margin-left: 250px;
+        width: 500px;
+    }
+
+    #entra {
+        width: 500px;
+        transform: translate(1.4%, 0%);
+    }
+    
+    #esqueci {
+        width: 500px;
+        transform: translate(4.2%, 0%);
+    }
+
+    #icone {
+        transform: translate(-760%, 35%);
+    }
+    
+
+    .ico {
+        transform: translate(50%, 25%);
+    }
+    
+    p {
+        text-align: start;
+        margin-left: 250px;
+    }
+
+    
+}
+
+    @media screen and (min-width: 992px){
+   
+    body {
+        background-image: linear-gradient(to top, #49a09d,#5f2c82);
+    }
+    
+    #login {
+        width: 950px;
+        height: 350px;
+        float: left
+
+    }
+    #imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+        border-radius: 0px 15px 15px 0px;
+    }
+
+    #form > h1 {
+        font-size: 2.2em;
+        padding-top: 15px;
+    }
+    
+    #form > p {
+        font-size: 1.2em;
+        margin-right: 480px;
+    }
+
+    .conta {
+        width: 460px;
+    }
+
+    #email {
+        transform: translate(10%, 8%);
+        width: 415px;
+    }
+
+    #password {
+        transform: translate(10%, 8%);
+        width: 415px;
+    }
+
+    .ico {
+        transform: translate(40%, 25%);
+    }
+    
+    #entra {
+        transform: translate(0.5%, 0%);
+        width: 460px;
+    }
+    #esqueci {
+        transform: translate(0.5%, 0%);
+        width: 460px;
+    }
+
+    #icone {
+        transform: translate(270%, -130%);
+    }
+    }
